@@ -119,13 +119,14 @@
       <h2>Tell me about your home.</h2>
       <p>Have a room you’re struggling with, a renovation underway or a whole-home palette to plan? I’d love to hear what you’re working on.</p>
       <p><strong>Carrie English Colour Studio</strong><br>Burlington, Ontario</p>
-      <p class="form-note">Before publishing, add your preferred business email and Instagram link in the website file.</p>
+     <p><a href="mailto:carrieenglish5@gmail.com">carrieenglish5@gmail.com</a></p> <p><a href="https://www.instagram.com/carrieenglishcolourstudio/" target="_blank" rel="noopener">Instagram: @carrieenglishcolourstudio</a></p> <p class="form-note">Serving Burlington and surrounding communities in Ontario.</p>
+      
     </div>
     <div>
       <form id="contact-form">
         <div><label for="name">Your name</label><input id="name" name="name" autocomplete="name" required placeholder="Name"></div>
         <div><label for="email">Email address</label><input id="email" name="email" type="email" autocomplete="email" required placeholder="you@example.com"></div>
-        <div><label for="project">What can I help with?</label><select id="project" name="project"><option>Whole-home colour palette</option><option>One room</option><option>Kitchen or cabinetry</option><option>Undertones and fixed finishes</option><option>Other</option></select></div>
+        <div><label for="project">What can I help with?</label><select id="project" name="project"><option>Paint colour selection</option>option>Whole-home colour palette</option><option>One room</option><option>Kitchen or cabinetry</option><option>Undertones and fixed finishes</option><option>Other</option></select></div>
         <div><label for="message">Tell me a little about your space</label><textarea id="message" name="message" required placeholder="What are you hoping to change?"></textarea></div>
         <button class="btn" type="submit">Prepare email inquiry</button>
         <p class="form-note" id="form-note">This form opens your email app with your inquiry. It does not store or send information by itself.</p>
@@ -145,7 +146,7 @@
 document.getElementById('year').textContent = new Date().getFullYear();
 document.getElementById('contact-form').addEventListener('submit', function(e){
   e.preventDefault();
-  const email = 'YOUR_EMAIL_HERE';
+  const email = 'carrieenglish5@gmail.comF';
   if(email === 'YOUR_EMAIL_HERE'){
     document.getElementById('form-note').textContent = 'To activate this form, replace YOUR_EMAIL_HERE in index.html with your business email address. The form will then prepare an email for you.';
     return;
